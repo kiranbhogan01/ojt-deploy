@@ -4,14 +4,15 @@
 }
 .Ba{
   background-color: aqua;
-  width: 1300px;
+  width: 1350px;
 }
 .about{
   
   background-color:white;
   border-radius: 1em;
   padding: 2em;
-  margin: 200px;
+  margin-top: 50px;
+  margin-left: 250px;
   
 }
 .bb{

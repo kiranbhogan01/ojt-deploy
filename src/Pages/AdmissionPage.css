@@ -1,11 +1,15 @@
 .Ea{
   background-color: aqua;
+  width: 1350px;
 }
 .admission{
    background-color: white ;
   border-radius: 1em;
-  padding: 1em;
-  margin: 100px;
+  padding: 2em;
+  margin-top: 50px;
+  margin-left: 250px;
+  
+  
 }
 .ee{
   text-align: center;

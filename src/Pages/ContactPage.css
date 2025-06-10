@@ -1,11 +1,13 @@
 .Da{
     background-color: aqua;
+    width: 1350px;
   }
   .contact{
    background-color: white ;
   border-radius: 1em;
   padding: 2em;
-  margin: 200px;
+  margin-top: 50px;
+  margin-left: 250px;
   padding-bottom: 10px;
 }
 .dd{

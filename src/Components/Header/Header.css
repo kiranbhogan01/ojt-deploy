@@ -21,9 +21,10 @@
     background-color: #2563eb;
     color: white;
     padding: 1rem 0;
-    box-shadow: 0 2px 4px rgba(12, 63, 216, 0.1);
+    box-shadow: 0 2px 4px rgba(14, 36, 97, 0.1);
     position: relative;
     z-index: 100;
+    
 }
 
 .header-container{
@@ -33,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #3b4de9;
+    background-color: #2563eb;
     z-index: 1000;
 }
 
@@ -44,7 +45,7 @@
 
 .nav{
         
-        color: white;
+    color: white;
     display: flex;
     gap: 1.5rem;
     align-items: center;

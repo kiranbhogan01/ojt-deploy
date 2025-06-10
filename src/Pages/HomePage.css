@@ -3,14 +3,14 @@
   text-align: center;
   border-radius: 1em;
   padding: 3em;
-  margin: 1px;
   width: 1250px;
 }
 
 .home{
     background-color: aliceblue;
     padding: 6em;
-    border-radius: 2em ;
+    border-radius: 1em ;
+    margin-left: 160px;
 }
 
 .aa{
@@ -25,17 +25,22 @@
 img{
   height: 200px;
   width: 200px;
+  filter: brightness(1000%);
 }
 
 .button{
-  background-color: green;
-  color: white;
   text-align: center;
+  background-color: #22c55e;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 #scroller{
   width: 800px;
-  height: 600px;
+  height: 400px;
   overflow: scroll;
   scrollbar-color: grey lightblue;
 }

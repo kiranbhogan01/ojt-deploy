@@ -1,13 +1,14 @@
 .Ca{
   background-color: aqua;
-  width: 1390px;
+  width: 1350px;
   
 }
 .courses{
   background-color: white ;
   border-radius: 1em;
   padding: 2em;
-  margin: 200px;
+  margin-top: 50px;
+  margin-left: 250px;
   }
   .cc{
     text-align: center;
