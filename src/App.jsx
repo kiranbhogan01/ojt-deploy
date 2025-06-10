@@ -43,6 +43,7 @@ import Contact from "./Pages/ContactPage";
 import Admission from "./Pages/AdmissionPage";
 
 
+
 const App = () => {
     return(
         <div>
@@ -53,10 +54,9 @@ const App = () => {
                <Route path="/courses" element={<Courses/>}/>
                <Route path="/contact" element={<Contact/>}/>
                <Route path="/admission" element={<Admission/>}/>
-               <Route path="*" element={<NotFoundPage/>}/>
+               
              </Routes>
           </Router>
-
         </div>
     )
 }
