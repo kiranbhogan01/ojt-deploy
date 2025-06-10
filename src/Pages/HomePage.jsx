@@ -29,7 +29,7 @@ const Home =() => {
                     Why Choose Vivekanand College?
                 </h2>
                 <ul>
-                    <li>**Legacy of Excellence:** Decades of commitment to quality education.</li>
+                     <li>**Legacy of Excellence:** Decades of commitment to quality education.</li>
                     <li>**Experienced Faculty:** Learn from renowned experts and passionate educators.</li>
                     <li>**Modern Facilities:** Well-equipped labs, expansive library, and comfortable campus.</li>
                     <li>**Holistic Development:** Focus on co-curricular activities, sports, and community service.</li>
@@ -38,8 +38,8 @@ const Home =() => {
                 <h2>
                     Campus Life & Facilities
                 </h2>
-                <img src="public/Images/1st_files/campus-life-Crkero7B.jpg"></img>
-                <img src="public/Images/1st_files/students-studying-DbLGuwF_.jpg"></img>
+                <img src="public/Images/campus.jpg"></img>
+                <img src="public/Images/students.jpg"></img>
 
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your 
                     learning experience and personal growth.
