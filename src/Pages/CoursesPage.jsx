@@ -17,7 +17,7 @@ const Courses =() => {
                      industry trends and academic advancements.
                 </p>
                 <h2>Discover Campus Life</h2>
-                <video src="public/Videos/clg.mp4" width="600" height="200" controls ></video>
+                <video src="E:\OJT\OJT3project\ojt_react_App\Demo\public\Videos\clg.mp4" width="600" height="200" controls ></video>
 
                 <h2>Undergraduate Programs (UG)</h2>
                 <ul>                    
