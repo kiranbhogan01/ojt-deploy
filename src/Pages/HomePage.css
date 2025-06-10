@@ -5,21 +5,21 @@
   padding: 3em;
   margin: 1px;
   width: 1250px;
-  
-  
 }
+
 .home{
     background-color: aliceblue;
     padding: 6em;
     border-radius: 2em ;
 }
+
 .aa{
   color: white;
   background-color:white;
   text-align: center;
-  background-image: url(/Images/college-banner-Cz0xylpt.png) ;
+  background-image: url(/Images/1st_files/college-banner-Cz0xylpt.png) ;
   border-radius: 2em;
-  }
+}
 
 img{
   height: 200px;
