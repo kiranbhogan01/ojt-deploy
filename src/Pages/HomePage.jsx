@@ -38,8 +38,8 @@ const Home =() => {
                 <h2>
                     Campus Life & Facilities
                 </h2>
-                <img src="E:\OJT\OJT3project\ojt_react_App\Demo\public\Images\1st_files\campus-life-Crkero7B.jpg"></img>
-                <img src="E:\OJT\OJT3project\ojt_react_App\Demo\public\Images\1st_files\students-studying-DbLGuwF_.jpeg"></img>
+                <img src="public/Images/1st_files/campus-life-Crkero7B.jpg"></img>
+                <img src="public/Images/1st_files/students-studying-DbLGuwF_.jpg"></img>
 
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your 
                     learning experience and personal growth.
