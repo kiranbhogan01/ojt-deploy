@@ -1,0 +1,159 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* .contant{
+    align-items: flex-start;
+    background-color: rgb(82,210,210);
+    display: flex;
+    flex-grow: 1;
+    font-family: Arial,sans-serif;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    unicode-bidi: isolate;
+
+} */
+
+
+.all{
+  background-color: skyblue;
+  text-align: center;
+  border-radius: 1em;
+  padding: 3em;
+  margin: 1px;
+  
+}
+.home{
+    background-color: aliceblue;
+    padding: 6em;
+    border-radius: 2em ;
+}
+.aa{
+  color: white;
+  background-color:white;
+  text-align: center;
+  background-image: url(E:\OJT\OJT3project\ojt_react_App\Demo\public\Images\1st_files\college-banner-Cz0xylpt.png) ;
+  border-radius: 2em;
+  
+}
+
+.button{
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.b{
+  text-align: center;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+.bb{
+  color:blue;
+  text-align: center;
+}
+.Ba{
+  background-color: aqua;
+}
+.about{
+  
+  background-color:white;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 200px;
+  
+}
+.bb{
+  color: blue;
+}
+.Ca{
+  background-color: aqua;
+}
+.courses{
+  background-color: white ;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 200px;
+  }
+  .cc{
+    text-align: center;
+    color: blue;
+  }
+  .Da{
+    background-color: aqua;
+  }
+  .contact{
+   background-color: white ;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 200px;
+  padding-bottom: 10px;
+}
+.dd{
+  text-align: center;
+  color: blue;
+}
+.Ea{
+  background-color: aqua;
+}
+.admission{
+   background-color: white ;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 100px;
+}
+.ee{
+  text-align: center;
+  color: blue;
+}
+
+#scroller{
+  width: 800px;
+  height: 600px;
+  overflow: scroll;
+  scrollbar-color: grey lightblue;
+}

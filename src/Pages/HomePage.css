@@ -1,0 +1,40 @@
+.all{
+  background-color: aqua;
+  text-align: center;
+  border-radius: 1em;
+  padding: 3em;
+  margin: 1px;
+  width: 1250px;
+  
+  
+}
+.home{
+    background-color: aliceblue;
+    padding: 6em;
+    border-radius: 2em ;
+}
+.aa{
+  color: white;
+  background-color:white;
+  text-align: center;
+  background-image: url(E:\OJT\OJT3project\ojt_react_App\Demo\public\Images\1st_files\college-banner-Cz0xylpt.png) ;
+  border-radius: 2em;
+  
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.button{
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+#scroller{
+  width: 800px;
+  height: 600px;
+  overflow: scroll;
+  scrollbar-color: grey lightblue;
+}

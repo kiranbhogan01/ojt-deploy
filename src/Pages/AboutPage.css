@@ -1,0 +1,26 @@
+.bb{
+  color:blue;
+  text-align: center;
+}
+.Ba{
+  background-color: aqua;
+  width: 1300px;
+}
+.about{
+  
+  background-color:white;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 200px;
+  
+}
+.bb{
+  color: blue;
+}
+
+#scroller{
+  width: 800px;
+  height: 600px;
+  overflow: scroll;
+  scrollbar-color: grey lightblue;
+}
