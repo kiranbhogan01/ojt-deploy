@@ -9,12 +9,13 @@ const Home =() => {
             <div className="all">
                 <Header/>
 
-                <div className="aa">
+                
+                <div className="home" id="scroller">
+                    <div className="aa">
                     <h1>Welcome to Vivekanand College!</h1>
                     <h2>Your journey to excellence starts here.</h2>
                      <Link to="/admission" className="button" >Apply Now</Link> 
-                </div>
-                <div className="home" id="scroller">
+                    </div>
                 <p>
                     **Vivekanand College is a premier educational institution dedicated to fostering academic 
                     excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], 
@@ -38,8 +39,8 @@ const Home =() => {
                 <h2>
                     Campus Life & Facilities
                 </h2>
-                <img src="public/Images/campus.jpg"></img>
-                <img src="public/Images/students.jpg"></img>
+                <img src="/Images/campus-life-Crkero7B.jpg"></img>
+                <img src="/Images/students-studying-DbLGuwF_.jpeg"></img>
 
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your 
                     learning experience and personal growth.

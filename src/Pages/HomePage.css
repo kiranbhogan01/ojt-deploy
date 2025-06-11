@@ -2,30 +2,37 @@
   background-color: aqua;
   text-align: center;
   border-radius: 1em;
-  padding: 3em;
-  width: 1250px;
+  padding: 0em;
+  width: 1350px;
+  margin: 1px;
 }
 
 .home{
     background-color: aliceblue;
     padding: 6em;
     border-radius: 1em ;
-    margin-left: 160px;
+    margin-left: 300px;
+    margin:100px;
+    margin-top: 50px;
+    margin-bottom: 1px;
 }
 
 .aa{
   color: white;
   background-color:white;
   text-align: center;
-  background-image: url(/public/Images/banner.jpg) ;
-  border-radius: 2em; 
+  background-image: url(public/Images/college-banner-Cz0xylpt.png) ;
+  border-radius: 1em; 
+  margin-bottom: 20px;
+  margin-top: 1px;
+  
 }
 
 
 img{
-  height: 200px;
-  width: 200px;
-  filter: brightness(1000%);
+  height: 300px;
+  width: 300px;
+  
 }
 
 .button{
