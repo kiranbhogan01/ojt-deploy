@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header/Header";
+import Header from "../components/Headers/Header";
 import { Link } from "react-router-dom";
 import './HomePage.css';
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footers/Footer";
 
 const Home =() => {
         return(
