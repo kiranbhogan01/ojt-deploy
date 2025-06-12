@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../Components/Header/Header";
+import Header from "../components/Header/Header";
 import './CoursesPage.css';
-import Footer from "../Components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 
 const Courses =() => {

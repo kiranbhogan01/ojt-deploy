@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../Components/Header/Header";
+import Header from "../components/Header/Header";
 import './ContactPage.css';
-import Footer from "../Components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 
 const Contact =() => {

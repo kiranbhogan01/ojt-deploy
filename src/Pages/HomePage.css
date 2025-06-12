@@ -10,24 +10,35 @@
 .home{
     background-color: aliceblue;
     padding: 6em;
-    border-radius: 1em ;
-    margin-left: 300px;
+    margin-left: 1000px;
     margin:100px;
     margin-top: 50px;
     margin-bottom: 1px;
 }
 
 .aa{
-  color: white;
+  color:white;
   background-color:white;
   text-align: center;
-  background-image: url(/Images/college-banner-Cz0xylpt.png) ;
-  border-radius: 1em; 
-  margin-bottom: 20px;
-  margin-top: 1px;
-  
-}
+  margin-top: 5px;
+  background-image:url(../../public/Images/college-banner-Cz0xylpt.png) ;
+  /* position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin-top: 70px; */
 
+}
+/* .img1{
+  width: 100%;
+  height: 50%;
+  object-fit: fill;
+  /* Cover the area, cropping if necessary */
+  /* filter: brightness(50%);
+}  */
 
 img{
   height: 300px;
@@ -37,13 +48,13 @@ img{
 
 .button{
   text-align: center;
-  background-color: #22c55e;
+  background-color: #0e7a36;
   color: white;
   padding: 0.5rem 1rem;
   font-weight: bold;
   border-radius: 4px;
   text-decoration: none;
-}
+  }
 
 #scroller{
   width: 800px;

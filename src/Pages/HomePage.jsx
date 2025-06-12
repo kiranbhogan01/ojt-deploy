@@ -1,21 +1,22 @@
 import React from "react";
-import Header from "../Components/Header/Header";
+import Header from "../components/Header/Header";
 import { Link } from "react-router-dom";
 import './HomePage.css';
-import Footer from "../Components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 const Home =() => {
         return(
-            <div className="all">
+            <div className="all" style={{ overflow: "auto" }}>
                 <Header/>
 
-                
                 <div className="home" id="scroller">
+                        
                     <div className="aa">
-                    <h1>Welcome to Vivekanand College!</h1>
-                    <h2>Your journey to excellence starts here.</h2>
-                     <Link to="/admission" className="button" >Apply Now</Link> 
+                        <h1>Welcome to Vivekanand College!</h1>
+                        <h2>Your journey to excellence starts here.</h2>
+                        <Link to="/admission" className="button" >Apply Now</Link> 
                     </div>
+                 
                 <p>
                     **Vivekanand College is a premier educational institution dedicated to fostering academic 
                     excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], 
@@ -49,12 +50,12 @@ const Home =() => {
                  <div>
                         <Link to="/courses" className='button'>Explore Courses</Link>
                  </div>
-            </div>
-                
+           
+             </div>
+    
                 <Footer/>
+           
             </div>
-
-
         )
 }
 

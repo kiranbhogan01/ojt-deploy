@@ -63,6 +63,7 @@ const Header = () => {
                     <Link to="/courses" className="nav-link">Courses</Link>
                     <Link to="/contact" className="nav-link">Contact</Link>
                     <Link to="/admission" className="apply-btn">Apply Now!</Link>
+                
                  </nav>
                 <button className="hamburger" onClick={toggleMenu}>
 
