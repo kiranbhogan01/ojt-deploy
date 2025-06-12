@@ -44,17 +44,12 @@ import Admission from "./Pages/AdmissionPage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import ChatbotComponents from "./components/Chatbot/ChatboatComponents";
 
-
-
-
-
-
 const App = () => {
     return(
         <div>
           <Router>
              <Routes>
-               <Route path="/" element={<Home/>}/>
+               <Route path="/" element={<Home/>} />
                <Route path="/about" element={<About/>}/>
                <Route path="/courses" element={<Courses/>}/>
                <Route path="/contact" element={<Contact/>}/>
