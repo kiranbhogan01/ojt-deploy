@@ -46,6 +46,7 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 
 
 
+
 const App = () => {
     return(
         <div>
@@ -59,8 +60,8 @@ const App = () => {
                <Route path="*" element={<NotFoundPage/>}/>
               
              </Routes>
-             <ChatbotComponent/>
           </Router>
+          <ChatbotComponent/>
         </div>
     )
 }
