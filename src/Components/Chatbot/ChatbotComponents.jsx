@@ -93,8 +93,7 @@ const ChatbotComponent = () => {
     if (inputValue.trim() === "") return;
     const userMessageText = inputValue;
     const newUserMessage = { text: userMessageText, sender: "user" };
-    setMessages((prevMessages) => [...prevMessages, newUserMessage]); //...spead opertor in array[]
-                                                                      //..rest opertor in paranthesis()
+    setMessages((prevMessages) => [...prevMessages, newUserMessage]); //...spead opertor in array[]     //..rest opertor in paranthesis()
     setInputValue("");
     if (!isOnline) {
       setMessages((prevMessages) => [
