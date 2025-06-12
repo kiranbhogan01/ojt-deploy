@@ -53,7 +53,7 @@ const ChatbotComponent = () => {
       setLoading(false);
       return "Please wait, I'm still getting ready...";
     }
-    try {
+    try {  /* try- process sucsesfully run */
       const userEmbedding = await getEmbeddings(userMessageText); // we recieve vectors
       let bestMatch = { intent: "default", score: 0 };
       for (const intent in preparedKnowledgeBase) {
@@ -68,7 +68,7 @@ const ChatbotComponent = () => {
           }
         }
       }
-      console.log(
+      console.log( /* console.log-use for value print */
         `Best matching intent: ${bestMatch.intent} with score: ${bestMatch.score}`
       );
       if (bestMatch.score >= SIMILARITY_THRESHOLD) {
@@ -76,7 +76,7 @@ const ChatbotComponent = () => {
       } else {
         return preparedKnowledgeBase.default.response;
       }
-    } catch (error) {
+    } catch (error) { /* catch: use for error define */
       console.error("Error fetching AI response:", error);
       if (error.message.includes("429")) {
         return "I'm experiencing high traffic right now. Please try again in a moment.";
@@ -93,7 +93,8 @@ const ChatbotComponent = () => {
     if (inputValue.trim() === "") return;
     const userMessageText = inputValue;
     const newUserMessage = { text: userMessageText, sender: "user" };
-    setMessages((prevMessages) => [...prevMessages, newUserMessage]);
+    setMessages((prevMessages) => [...prevMessages, newUserMessage]); //...spead opertor in array[]
+                                                                      //..rest opertor in paranthesis()
     setInputValue("");
     if (!isOnline) {
       setMessages((prevMessages) => [
@@ -173,17 +174,17 @@ const ChatbotComponent = () => {
               {messages.map((message, index) => (
                 <div key={index} className={`message-row ${message.sender}`}>
                   {message.sender === "bot" && (
-                    <div className="avatar bot-avatar">:robot_face:</div>
+                    <div className="avatar bot-avatar">👨‍💻</div>
                   )}
                   <p className={`${message.sender}-message`}>{message.text}</p>
                   {message.sender === "user" && (
-                    <div className="avatar user-avatar">:silhouette:</div>
+                    <div className="avatar user-avatar">👨</div>
                   )}
                 </div>
               ))}
               {loading && (
                 <div className="message-row bot">
-                  <div className="avatar bot-avatar">:robot_face:</div>
+                  <div className="avatar bot-avatar">👨‍💻</div>
                   <p className="bot-message loading-indicator">Typing...</p>
                 </div>
               )}
