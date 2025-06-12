@@ -2,8 +2,9 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import './AboutPage.css';
-import Footer from "../components/Footer/Footer";
+
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const About = () => {
     return(
