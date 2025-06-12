@@ -42,7 +42,8 @@ import Courses from "./Pages/CoursesPage";
 import Contact from "./Pages/ContactPage";
 import Admission from "./Pages/AdmissionPage";
 import NotFoundPage from "./Pages/NotFoundPage";
-import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
+import ChatbotComponents from "./components/Chatbot/ChatboatComponents";
+
 
 
 
@@ -62,7 +63,7 @@ const App = () => {
               
              </Routes>
           </Router>
-          <ChatbotComponent/>
+          <ChatbotComponents/>
         </div>
     )
 }
