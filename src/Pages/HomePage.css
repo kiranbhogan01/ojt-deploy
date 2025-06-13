@@ -1,5 +1,5 @@
 .all{
-  background-color: aqua;
+  background-color:aqua;
   text-align: center;
   border-radius: 1em;
   padding: 0em;
@@ -10,7 +10,7 @@
 .home{
     background-color: aliceblue;
     padding: 6em;
-    margin-left: 1000px;
+    margin-left: 300px;
     margin:100px;
     margin-top: 50px;
     margin-bottom: 1px;
@@ -41,9 +41,15 @@
 }  */
 
 img{
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   
+}
+.Page{
+  text-align: left;
+}
+.line{
+  text-align: left;
 }
 
 .button{
