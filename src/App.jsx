@@ -42,7 +42,10 @@ import Courses from "./Pages/CoursesPage";
 import Contact from "./Pages/ContactPage";
 import Admission from "./Pages/AdmissionPage";
 import NotFoundPage from "./Pages/NotFoundPage";
-import Chatbot from "./components/Chatbot/Chatbot";
+import Chatbot from "./components/chatbotcomponent/Chatbot";
+
+
+
 
 const App = () => {
     return(
@@ -59,7 +62,7 @@ const App = () => {
              </Routes>
              <Chatbot />
           </Router>
-          
+          <Chatbot />
         </div>
         
     )
